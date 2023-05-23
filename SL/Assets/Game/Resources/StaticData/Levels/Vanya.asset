@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42614ae583d4adf837683e7fc844355, type: 3}
+  m_Name: Vanya
+  m_EditorClassIdentifier: 
+  LevelKey: Vanya
+  LevelTransferKey: Vanya
+  EnemySpawners:
+  - Id: Vanya_d34e3cda-f89f-4a45-bdce-b755ee747173
+    MonsterTypeId: 30
+    Position: {x: 12.97, y: 22.08, z: 0.008027896}
+  - Id: Vanya_c07b522c-5d71-4e75-a51f-34506325b2f8
+    MonsterTypeId: 20
+    Position: {x: 21.67, y: 22.27, z: 0.008027896}
+  - Id: Vanya_a7259e1f-49b8-408a-b024-d2c763dd09e5
+    MonsterTypeId: 0
+    Position: {x: 21.07, y: 15.52, z: 0.008027896}
+  - Id: Main_517b3f58-8b9d-4bcb-98f7-c70a23fd30fe
+    MonsterTypeId: 20
+    Position: {x: 10.754601, y: 14.548691, z: 0.008027896}
+  - Id: Vanya_27d7100e-1bcc-47a8-8ad9-c29e7daf9e9a
+    MonsterTypeId: 20
+    Position: {x: 17.83, y: 22.22, z: 0.008027896}
+  InitialHeroPosition: {x: -174.9, y: 15.9}
+  SaveTriggers: {x: -16.810165, y: 33.92911}
+  LevelTransfers: {x: -165.4, y: 8.7}

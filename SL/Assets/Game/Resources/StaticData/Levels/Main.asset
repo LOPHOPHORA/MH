@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42614ae583d4adf837683e7fc844355, type: 3}
+  m_Name: Main
+  m_EditorClassIdentifier: 
+  LevelKey: Main
+  LevelTransferKey: Visual
+  EnemySpawners:
+  - Id: Main_a259a27b-0c15-49e5-ba0c-0d08731ef0ae
+    MonsterTypeId: 0
+    Position: {x: 36.98, y: -2.52, z: 0.016055793}
+  - Id: Main_89d4ee86-7eb3-4608-910b-c284c5739b8b
+    MonsterTypeId: 0
+    Position: {x: 21.33, y: -2.88, z: 0.016055793}
+  - Id: Main_d30eccec-05c0-43e2-a8fc-71e1e1682f2a
+    MonsterTypeId: 10
+    Position: {x: 50.74, y: -3.68, z: 0.016055793}
+  - Id: Main_d3b9201f-7453-4bf7-8860-ee83d41e9e8d
+    MonsterTypeId: 0
+    Position: {x: 35.19, y: -2.54, z: 0.016055793}
+  - Id: Main_71557d19-6ab1-40a4-b79e-8e7f04d47b59
+    MonsterTypeId: 0
+    Position: {x: -1.7700002, y: -3.68, z: 0.016055793}
+  - Id: Main_f4aac1d0-53d4-41c2-9c91-065a2f01ecb6
+    MonsterTypeId: 0
+    Position: {x: 49.12, y: -2.53, z: 0.016055793}
+  InitialHeroPosition: {x: -13.6, y: -2.91}
+  SaveTriggers: {x: 0.69, y: -2.47}
+  LevelTransfers: {x: 65.27, y: -2.99}
